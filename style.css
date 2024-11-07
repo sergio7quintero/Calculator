@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+
+#displayBar {
+    width: 99%;
+    height: 100px;
+}
+
+#calc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+button {
+    height: 120px;
+    font-size: 26px;
+}
