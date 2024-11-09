@@ -5,7 +5,7 @@ let deleteButton = document.getElementById("delete");
 let input = "";
 
 buttons.forEach((button) => {
-  if (button !== "deleteButton") {
+  if (button !== deleteButton) {
     button.addEventListener("click", () => {
       const value = button.innerText;
 
@@ -30,9 +30,7 @@ buttons.forEach((button) => {
 });
 
 deleteButton.addEventListener("click", () => {
-  console.log("Delete button clicked");
-  //   input = input.slice(0, -1);
   let currentValue = displayBar.value;
   displayBar.value = currentValue.slice(0, -1);
-  console.log("After delete:", input);
+  // console.log("After delete:", input);
 });

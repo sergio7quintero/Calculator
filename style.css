@@ -7,7 +7,7 @@
 body {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #db0a0a, #8195f8);
+  background: linear-gradient(to right, #db0a0a, #0f0f10);
 }
 
 nav {
@@ -69,11 +69,11 @@ button {
   height: 120px;
   font-size: 26px;
   cursor: pointer;
-  background-color: #eaebf3;
-  border: 1px solid white;
+  background-color: rgb(249, 252, 253);
+  border: 1px solid rgba(23, 21, 21, 0.876);
 }
 button:hover {
-  background-color: white;
+  background: linear-gradient(to right, #e56363, #f7f7fa);
 }
 
 .span-two {
