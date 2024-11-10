@@ -33,5 +33,4 @@ deleteButton.addEventListener("click", () => {
   let currentValue = displayBar.value;
   displayBar.value = currentValue.slice(0, -1);
   input = displayBar.value;
-  // console.log("After delete:", input);
 });
