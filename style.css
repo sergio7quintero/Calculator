@@ -1,3 +1,5 @@
+/***************************** Start of CSS */
+
 * {
   padding: 0%;
   margin: 0px;
@@ -9,7 +11,7 @@ body {
   justify-content: center;
   background: linear-gradient(to right, #db0a0a, #0f0f10);
 }
-
+/***************************** NavigationBar Start */
 nav {
   font-family: monospace;
   background-color: rgb(209, 221, 229, 0.667);
@@ -38,7 +40,7 @@ h1 {
   margin-top: 1rem;
   padding-left: 24%;
 }
-
+/***************************** Calculator Container Start */
 .container {
   width: 600px;
   position: fixed;
@@ -79,7 +81,7 @@ button:hover {
 .span-two {
   grid-column: span 2;
 }
-
+/***************************** Responsiveness start */
 @media screen and (max-width: 656px) {
   .container {
     width: 400px;
@@ -112,3 +114,5 @@ button:hover {
     position: absolute;
   }
 }
+
+/***************************** End of CSS thank you for checking our work */
