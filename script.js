@@ -30,6 +30,7 @@ if (button !== deleteButton) {
     });
 }
 });
+
 // the delete button clears the most recent input, added the eventListener to activate when clicked
 deleteButton.addEventListener("click", () => {
     let currentValue = displayBar.value;
