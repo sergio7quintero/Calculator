@@ -2,11 +2,14 @@ let displayBar = document.getElementById("displayBar");
 let buttons = document.querySelectorAll("#calc button");
 let deleteButton = document.getElementById("delete");
 
+//where the current input will be stored
 let input = "";
-//displays the input that is clicked into the display bar
+
+//loops through each button and adds a click event listener
 buttons.forEach((button) => {
 if (button !== deleteButton) {
     button.addEventListener("click", () => {
+    //displays the input that is clicked into the display bar
     const value = button.innerText;
     // is the clear button
     if (value === "AC") {
@@ -30,6 +33,7 @@ if (button !== deleteButton) {
     });
 }
 });
+
 // the delete button clears the most recent input, added the eventListener to activate when clicked
 deleteButton.addEventListener("click", () => {
     let currentValue = displayBar.value;
